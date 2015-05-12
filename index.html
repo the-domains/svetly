@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html id="u71">
+<html>
 
-  <head id="u9">
-    <meta charset="utf-8" id="u0" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" id="u1" /><script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js" id="u2"></script><script id="u4">WebFont.load({"google":{"families":["Playfair Display:400,700","Roboto:500,500italic,900,900italic"]}});</script><style type="text/css" id="u6">html {font-family: 'Roboto';font-weight: 500;}
- .layout-system .hero {font-family: 'Playfair Display';font-weight: 400;}
- .layout-system .title {font-family: 'Playfair Display';}
- .layout-system .subtitle {font-family: 'Playfair Display';}
- .layout-system .description {font-family: 'Roboto';}
- .layout-system .title {font-weight: 400;}
- .layout-system .subtitle {font-weight: 700;}
- a {font-family: 'Roboto';font-weight: 500;}
- .attribution {font-family: 'Roboto';font-weight: 900;text-transform: uppercase;letter-spacing: .07em;}
- .layout-system .quote {font-family: 'Playfair Display';font-weight: 400;font-style: normal;}
- .layout-system .title {text-transform: uppercase;letter-spacing: .03em;}</style><style type="text/css">
-  html {
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="the-grid-solution" content=" " /><style type="text/css">
+  .box-sizing {
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
   width: 100%;
 }
 body {
@@ -33,11 +30,39 @@ body:after {
   opacity: .2;
   z-index: -1;
 }
+@media screen and (max-width: 720px) {
+  body:after {
+    display: none;
+  }
+}
 body a,
 body .cta {
   color: #cccccc;
   text-decoration: none;
   display: inline-block;
+}
+body a:hover *,
+body .cta:hover * {
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -ms-transition-timing-function: linear;
+  transition-transition-timing-function: linear;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  opacity: .8;
 }
 *,
 *:before,
@@ -55,557 +80,147 @@ body .cta {
   padding: 0;
   margin: 0;
 }
-.center-line {
-  position: fixed;
-  left: 50%;
-  height: 100%;
-  border-left: 1px solid #dddddd;
-  opacity: .3;
-  top: 0;
-}
-article.post .cover img {
-  background-size: contain;
-  background-position: center;
-}
 article.post .title {
   color: #aaaaaa;
-  text-align: center;
-  line-height: 1em;
 }
 article.post .description {
   color: #bbbbbb;
 }
+article.post .overlay {
+  opacity: 0.06;
+}
 article.post .attribution .source {
-  text-align: center;
   color: #dddddd;
 }
-article.post .attribution .author {
-  text-align: center;
-}
 article.post .attribution .name {
-  text-align: center;
   color: #bbbbbb;
 }
 article.post .attribution .avatar {
   background-size: cover;
-  border-radius: 30px;
-  opacity: .6;
 }
-article.post .text {
-  text-align: center;
+svg text,
+svg path {
+  fill: #aaaaaa;
 }
 
 </style><style id="gss-precomputed">
 @media (max-width: 720px) {
-#grid{font-size: 0.16rem;}
-#grid>div:nth-of-type(1){font-size: 0.16rem;}
+#u11{font-size: 0.16rem;}
+#u11:before{content: ""; display: none;}
+#u10{font-size: 0.16rem;}
+#u1b37be99-1fa8-40ab-b073-f0de9469cc71{font-size: 0.16rem;}
+#u5{font-size: 0.16rem;}
+#u3{font-size: 0.16rem;}
+#u2{font-size: 0.1872rem;}
 
-#grid>div:nth-of-type(2){font-size: 0.16rem;}
+#u4{font-size: 0.24rem;}
 
-#grid>div:nth-of-type(3){font-size: 0.16rem;}
+#u6{font-size: 0.16rem;}
 
-#grid>div:nth-of-type(4){font-size: 0.16rem;}
+#u8{font-size: 0.16rem;}
+#u8>blockquote:nth-of-type(1){font-size: 0.16rem;}
 
-#grid>div:nth-of-type(5){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(6){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(7){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(8){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(9){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(10){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(11){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(12){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(13){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(14){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(15){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(16){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(17){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(18){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(19){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(20){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(21){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(22){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(23){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(24){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(25){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(26){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(27){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(28){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(29){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(30){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(31){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(32){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(33){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(34){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(35){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(36){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(37){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(38){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(39){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(40){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(41){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(42){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(43){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(44){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(45){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(46){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(47){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(48){font-size: 0.16rem;}
-
-#u67{font-size: 0.16rem;}
-#u67:before{content: ""; display: none;}
-#u29{font-size: 0.16rem;}
-#u2f4786ae-530f-407a-a2a4-52ad6103ef3a{font-size: 0.16rem;}
-#u14{font-size: 0.16rem;}
 #u12{font-size: 0.16rem;}
-#u11{font-size: 0.1872rem;}
-
-#u13{font-size: 0.24rem;}
-
-#u16{font-size: 0.16rem;}
-
-#u25{overflow: hidden; height: 0.786rem; width: 0.933rem; position: absolute; left: -0.174rem; top: 0rem;;font-size: 0.16rem;}
-#u20{font-size: 0.16rem;}
-#u19{height: 0.798rem; width: 1.8rem; position: absolute; top: 0rem; left: -0.867rem;;font-size: 0.16rem;}
-
-#u27{font-size: 0.16rem;}
-#u27>img:nth-of-type(1){font-size: 0.16rem;}
-
-#u47{font-size: 0.16rem;}
-#ua1b2de7f-12be-43a6-a180-57971fa20214{font-size: 0.16rem;}
-#u33{font-size: 0.16rem;}
-#u31{font-size: 0.16rem;}
-#u30{font-size: 0.1872rem;}
-
-#u32{font-size: 0.24rem;}
-
-#u34{font-size: 0.16rem;}
-
-#u43{overflow: hidden; height: 1.197rem; width: 1.995rem; position: absolute; top: -3.801rem; left: -0.333rem;;font-size: 0.16rem;}
-#u38{font-size: 0.16rem;}
-#u37{height: 1.266rem; width: 2.7rem; position: absolute; top: -0.069rem; left: -0.705rem;;font-size: 0.16rem;}
-
-#u45{font-size: 0.16rem;}
-#u45>img:nth-of-type(1){font-size: 0.16rem;}
-
-#u66{font-size: 0.16rem;}
-#u64f5bb58-cdfb-489a-bf43-86e435e9378f{font-size: 0.16rem;}
-#u51{font-size: 0.16rem;}
-#u49{font-size: 0.16rem;}
-#u48{font-size: 0.1872rem;}
-
-#u50{font-size: 0.24rem;}
-
-#u53{font-size: 0.16rem;}
-
-#u62{overflow: hidden; height: 0.54rem; width: 0.273rem; position: absolute; left: -0.003rem; top: -9.51rem;;font-size: 0.16rem;}
-#u57{font-size: 0.16rem;}
-#u56{height: 0.897rem; width: 1.209rem; position: absolute; top: 0rem; left: -0.936rem;;font-size: 0.16rem;}
-
-#u64{font-size: 0.16rem;}
-#u64>img:nth-of-type(1){font-size: 0.16rem;}
 
 }
 @media (min-width: 721px) {
-#grid{font-size: 0.16rem;}
-#grid>div:nth-of-type(1){font-size: 0.16rem;}
+#u11{font-size: 0.16rem;}
+#u11:before{content: ""; display: none;}
+#u10{font-size: 0.16rem;}
+#u1b37be99-1fa8-40ab-b073-f0de9469cc71{font-size: 0.16rem;}
+#u5{font-size: 0.16rem;}
+#u3{font-size: 0.16rem;}
+#u2{font-size: 0.1872rem;}
 
-#grid>div:nth-of-type(2){font-size: 0.16rem;}
+#u4{font-size: 0.24rem;}
 
-#grid>div:nth-of-type(3){font-size: 0.16rem;}
+#u6{font-size: 0.16rem;}
 
-#grid>div:nth-of-type(4){font-size: 0.16rem;}
+#u8{font-size: 0.16rem;}
+#u8>blockquote:nth-of-type(1){font-size: 0.16rem;}
 
-#grid>div:nth-of-type(5){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(6){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(7){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(8){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(9){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(10){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(11){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(12){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(13){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(14){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(15){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(16){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(17){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(18){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(19){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(20){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(21){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(22){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(23){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(24){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(25){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(26){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(27){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(28){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(29){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(30){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(31){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(32){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(33){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(34){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(35){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(36){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(37){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(38){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(39){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(40){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(41){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(42){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(43){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(44){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(45){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(46){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(47){font-size: 0.16rem;}
-
-#grid>div:nth-of-type(48){font-size: 0.16rem;}
-
-#u67{font-size: 0.16rem;}
-#u67:before{content: ""; display: none;}
-#u29{font-size: 0.16rem;}
-#u2f4786ae-530f-407a-a2a4-52ad6103ef3a{font-size: 0.16rem;}
-#u14{font-size: 0.16rem;}
 #u12{font-size: 0.16rem;}
-#u11{font-size: 0.1872rem;}
 
-#u13{font-size: 0.24rem;}
+}</style><script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script><script>WebFont.load({"google":{"families":["Roboto:400,700","Roboto:300,300italic,700,700italic"]}});</script><style type="text/css">html {font-family: 'Roboto';font-weight: 300;}
+ .layout-system .hero {font-family: 'Roboto';font-weight: 400;}
+ .layout-system .title {font-family: 'Roboto';}
+ .layout-system .subtitle {font-family: 'Roboto';}
+ .layout-system .description {font-family: 'Roboto';}
+ .layout-system .title {font-weight: 400;}
+ .layout-system .subtitle {font-weight: 700;}
+ a {font-family: 'Roboto';font-weight: 300;}
+ .attribution {font-family: 'Roboto';font-weight: 700;}
+ .layout-system .quote {font-family: 'Roboto';font-weight: 400;font-style: italic;}
+ .layout-system .title {text-transform: uppercase;letter-spacing: .03em;}</style></head>
 
-#u16{font-size: 0.16rem;}
-
-#u25{overflow: hidden; height: 0.786rem; width: 0.933rem; position: absolute; left: -0.174rem; top: 0rem;;font-size: 0.16rem;}
-#u20{font-size: 0.16rem;}
-#u19{height: 0.798rem; width: 1.8rem; position: absolute; top: 0rem; left: -0.867rem;;font-size: 0.16rem;}
-
-#u27{font-size: 0.16rem;}
-#u27>img:nth-of-type(1){font-size: 0.16rem;}
-
-#u47{font-size: 0.16rem;}
-#ua1b2de7f-12be-43a6-a180-57971fa20214{font-size: 0.16rem;}
-#u33{font-size: 0.16rem;}
-#u31{font-size: 0.16rem;}
-#u30{font-size: 0.1872rem;}
-
-#u32{font-size: 0.24rem;}
-
-#u34{font-size: 0.16rem;}
-
-#u43{overflow: hidden; height: 1.197rem; width: 1.995rem; position: absolute; top: -3.801rem; left: -0.333rem;;font-size: 0.16rem;}
-#u38{font-size: 0.16rem;}
-#u37{height: 1.266rem; width: 2.7rem; position: absolute; top: -0.069rem; left: -0.705rem;;font-size: 0.16rem;}
-
-#u45{font-size: 0.16rem;}
-#u45>img:nth-of-type(1){font-size: 0.16rem;}
-
-#u66{font-size: 0.16rem;}
-#u64f5bb58-cdfb-489a-bf43-86e435e9378f{font-size: 0.16rem;}
-#u51{font-size: 0.16rem;}
-#u49{font-size: 0.16rem;}
-#u48{font-size: 0.1872rem;}
-
-#u50{font-size: 0.24rem;}
-
-#u53{font-size: 0.16rem;}
-
-#u62{overflow: hidden; height: 0.54rem; width: 0.273rem; position: absolute; left: -0.003rem; top: -9.51rem;;font-size: 0.16rem;}
-#u57{font-size: 0.16rem;}
-#u56{height: 0.897rem; width: 1.209rem; position: absolute; top: 0rem; left: -0.936rem;;font-size: 0.16rem;}
-
-#u64{font-size: 0.16rem;}
-#u64>img:nth-of-type(1){font-size: 0.16rem;}
-
-}</style></head>
-
-  <body id="u70">
-    <div id="grid">
-      <div class="col1"></div>
-      <div class="col2"></div>
-      <div class="col3"></div>
-      <div class="col4"></div>
-      <div class="col5"></div>
-      <div class="col6"></div>
-      <div class="col7"></div>
-      <div class="col8"></div>
-      <div class="col9"></div>
-      <div class="col10"></div>
-      <div class="col11"></div>
-      <div class="col12"></div>
-      <div class="col13"></div>
-      <div class="col15"></div>
-      <div class="col16"></div>
-      <div class="col17"></div>
-      <div class="col18"></div>
-      <div class="col19"></div>
-      <div class="col20"></div>
-      <div class="row1"></div>
-      <div class="row2"></div>
-      <div class="row3"></div>
-      <div class="row4"></div>
-      <div class="row5"></div>
-      <div class="row6"></div>
-      <div class="row7"></div>
-      <div class="row8"></div>
-      <div class="row9"></div>
-      <div class="row10"></div>
-      <div class="row11"></div>
-      <div class="row12"></div>
-      <div class="row13"></div>
-      <div class="row15"></div>
-      <div class="row16"></div>
-      <div class="row17"></div>
-      <div class="row18"></div>
-      <div class="row19"></div>
-      <div class="row20"></div>
-      <div class="row21"></div>
-      <div class="row22"></div>
-      <div class="row23"></div>
-      <div class="row24"></div>
-      <div class="row25"></div>
-      <div class="row26"></div>
-      <div class="row27"></div>
-      <div class="row28"></div>
-      <div class="row29"></div>
-      <div class="row30"></div>
+  <body id="u13"><script src="//cdn.thegrid.io/design-systems/taylor/0.0.55/src/assets/gss-init.js" id="u0"></script>
+    <!-- <div id="grid">
+  <div class="col1"></div>
+  <div class="col2"></div>
+  <div class="col3"></div>
+  <div class="col4"></div>
+  <div class="col5"></div>
+  <div class="col6"></div>
+  <div class="col7"></div>
+  <div class="col8"></div>
+  <div class="col9"></div>
+  <div class="col10"></div>
+  <div class="col11"></div>
+  <div class="col12"></div>
+  <div class="col13"></div>
+  <div class="col15"></div>
+  <div class="col16"></div>
+  <div class="col17"></div>
+  <div class="col18"></div>
+  <div class="col19"></div>
+  <div class="col20"></div>
+  <div class="row1"></div>
+  <div class="row2"></div>
+  <div class="row3"></div>
+  <div class="row4"></div>
+  <div class="row5"></div>
+  <div class="row6"></div>
+  <div class="row7"></div>
+  <div class="row8"></div>
+  <div class="row9"></div>
+  <div class="row10"></div>
+  <div class="row11"></div>
+  <div class="row12"></div>
+  <div class="row13"></div>
+  <div class="row15"></div>
+  <div class="row16"></div>
+  <div class="row17"></div>
+  <div class="row18"></div>
+  <div class="row19"></div>
+  <div class="row20"></div>
+  <div class="row21"></div>
+  <div class="row22"></div>
+  <div class="row23"></div>
+  <div class="row24"></div>
+  <div class="row25"></div>
+  <div class="row26"></div>
+  <div class="row27"></div>
+  <div class="row28"></div>
+  <div class="row29"></div>
+  <div class="row30"></div>
+</div> -->
+    <div class="layout-system computed fallback sections" id="u11">
+      <section class="section-fallback left section" id="u10">
+        <article class="post" id="u1b37be99-1fa8-40ab-b073-f0de9469cc71">
+          <div class="titles" id="u5">
+            <a href="https://www.facebook.com/photo.php?fbid=10100760434425410&set=a.10100134384923630.2260724.29900283&type=1" id="u3">
+              <h1 class="title text" id="u2"></h1>
+            </a>
+            <h2 class="subtitle text" id="u4"></h2>
+          </div>
+          <p class="description text" id="u6"></p>
+          <div class="html" id="u8">
+            <blockquote></blockquote>
+          </div>
+        </article>
+      </section>
     </div>
-    <div class="layout-system computed fallback sections" id="u67">
-      <section class="section-fallback left section" id="u29">
-        <article class="post" id="u2f4786ae-530f-407a-a2a4-52ad6103ef3a">
-          <div class="titles" id="u14">
-            <a href="http://seekingalpha.com/article/2496115-wixs-competitive-advantage-penetration-and-expansion" id="u12">
-              <h1 class="title text" id="u11"></h1>
-            </a>
-            <h2 class="subtitle text" id="u13"></h2>
-          </div>
-          <p class="description text" id="u16">internet data projected copy</p>
-          <div class="cover image" id="u25"><style type="text/gss" scoped="scoped" id="u18">overflow: hidden;
-"viewport"[top] == &top  !require;
-"viewport"[left] == &left  !require;
-"viewport"[height] == &height  !require;
-"viewport"[width] == &width  !require;
-
-@v |~("viewport")~| in(img) !strong900;
-@h |~("viewport")~| in(img) !strong900;
-
-image-min-scale = 0.3;
-image-max-scale = 1;
-
-/* Define image dimensions and ratio */
-image-scale == img[width] / 600 !require;
-img[height] == img[width] * (266/600) !require;
-
-/* enforce minimum scale*/
-img[height] >= 266 * image-min-scale !require;
-img[height] <= 266 * image-max-scale !require;</style>
-            <a href="http://seekingalpha.com/article/2496115-wixs-competitive-advantage-penetration-and-expansion" id="u20">
-              <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/f9eb43ec9fda4a746bd287adf146a71e/passthrough.png?input=http%3A%2F%2Fstatic.cdn-seekingalpha.com%2Fuploads%2F2014%2F8%2F27%2Fsaupload_internet-data-projected-copy.png&width=600&height=266" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/f9eb43ec9fda4a746bd287adf146a71e/passthrough.png?input=http%3A%2F%2Fstatic.cdn-seekingalpha.com%2Fuploads%2F2014%2F8%2F27%2Fsaupload_internet-data-projected-copy.png&width=600&height=266 600w" sizes="sizes='(min-width: 1400px) 1400px, 100vw'" id="u19" />
-            </a><style type="text/gss" scoped="scoped" id="u22">/* define  blank spot */
-"space"[x] == img[x] + 0 * image-scale !require;
-"space"[y] == img[y] + 0 * image-scale !require;
-"space"[width] ==  360 * image-scale !require;
-"space"[height] == 261 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u24">/* define  area of importance */
-"scene"[x] == img[x] + 347 * image-scale !require;
-"scene"[y] == img[y] + 43 * image-scale !require;
-"scene"[width] ==  195 * image-scale !require;
-"scene"[height] == 176 * image-scale !require;
-
-/* Keep saliency towards original position */
-"scene"[center-x] == "viewport"[center-x];
-"scene"[center-y] == "viewport"[center-y];
-
-@v |~("scene")~| in("viewport");
-@h |~("scene")~| in("viewport");</style></div>
-          <div class="html" id="u27">
-            <img src="http://static.cdn-seekingalpha.com/uploads/2014/8/27/saupload_internet-data-projected-copy.png" alt="internet data projected copy" width="600">
-          </div>
-        </article>
-      </section>
-      <section class="section-fallback right section" id="u47">
-        <article class="post" id="ua1b2de7f-12be-43a6-a180-57971fa20214">
-          <div class="titles" id="u33">
-            <a href="http://peterdiamandis.tumblr.com/" id="u31">
-              <h1 class="title text" id="u30"></h1>
-            </a>
-            <h2 class="subtitle text" id="u32"></h2>
-          </div>
-          <p class="description text" id="u34"></p>
-          <div class="cover image" id="u43"><style type="text/gss" scoped="scoped" id="u36">overflow: hidden;
-"viewport"[top] == &top  !require;
-"viewport"[left] == &left  !require;
-"viewport"[height] == &height  !require;
-"viewport"[width] == &width  !require;
-
-@v |~("viewport")~| in(img) !strong900;
-@h |~("viewport")~| in(img) !strong900;
-
-image-min-scale = 0.3;
-image-max-scale = 1;
-
-/* Define image dimensions and ratio */
-image-scale == img[width] / 900 !require;
-img[height] == img[width] * (422/900) !require;
-
-/* enforce minimum scale*/
-img[height] >= 422 * image-min-scale !require;
-img[height] <= 422 * image-max-scale !require;</style>
-            <a href="http://peterdiamandis.tumblr.com/" id="u38">
-              <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/67c541770bd8c7fa068c5291ae6d30fb/passthrough.png?input=http%3A%2F%2Fwww.diamandis.com%2Fwp-content%2Fuploads%2F2015%2F04%2FUntitled.png&width=900&height=422" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/c9d64011ee15736b50279c141d4cfc4e/passthrough.png?input=http%3A%2F%2Fwww.diamandis.com%2Fwp-content%2Fuploads%2F2015%2F04%2FUntitled.png&width=720&height=337.59999999999997 720w, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/67c541770bd8c7fa068c5291ae6d30fb/passthrough.png?input=http%3A%2F%2Fwww.diamandis.com%2Fwp-content%2Fuploads%2F2015%2F04%2FUntitled.png&width=900&height=422 900w" sizes="sizes='(min-width: 1400px) 1400px, 100vw'" id="u37" />
-            </a><style type="text/gss" scoped="scoped" id="u40">/* define  blank spot */
-"space"[x] == img[x] + 0 * image-scale !require;
-"space"[y] == img[y] + 0 * image-scale !require;
-"space"[width] ==  330 * image-scale !require;
-"space"[height] == 435 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u42">/* define  area of importance */
-"scene"[x] == img[x] + 346 * image-scale !require;
-"scene"[y] == img[y] + 68 * image-scale !require;
-"scene"[width] ==  443 * image-scale !require;
-"scene"[height] == 309 * image-scale !require;
-
-/* Keep saliency towards original position */
-"scene"[center-x] == "viewport"[center-x];
-"scene"[center-y] == "viewport"[center-y];
-
-@v |~("scene")~| in("viewport");
-@h |~("scene")~| in("viewport");</style></div>
-          <div class="html" id="u45">
-            <img src="http://www.diamandis.com/wp-content/uploads/2015/04/Untitled.png">
-          </div>
-        </article>
-      </section>
-      <section class="section-fallback left section" id="u66">
-        <article class="post" id="u64f5bb58-cdfb-489a-bf43-86e435e9378f">
-          <div class="titles" id="u51">
-            <a href="http://startupmanagement.org/2014/12/27/the-blockchain-is-the-new-database-get-ready-to-rewrite-everything/" id="u49">
-              <h1 class="title text" id="u48"></h1>
-            </a>
-            <h2 class="subtitle text" id="u50"></h2>
-          </div>
-          <p class="description text" id="u53">Screen Shot 2014-12-23 at 10.30.59 PM</p>
-          <div class="cover image" id="u62"><style type="text/gss" scoped="scoped" id="u55">overflow: hidden;
-"viewport"[top] == &top  !require;
-"viewport"[left] == &left  !require;
-"viewport"[height] == &height  !require;
-"viewport"[width] == &width  !require;
-
-@v |~("viewport")~| in(img) !strong900;
-@h |~("viewport")~| in(img) !strong900;
-
-image-min-scale = 0.3;
-image-max-scale = 1;
-
-/* Define image dimensions and ratio */
-image-scale == img[width] / 403 !require;
-img[height] == img[width] * (299/403) !require;
-
-/* enforce minimum scale*/
-img[height] >= 299 * image-min-scale !require;
-img[height] <= 299 * image-max-scale !require;</style>
-            <a href="http://startupmanagement.org/2014/12/27/the-blockchain-is-the-new-database-get-ready-to-rewrite-everything/" id="u57">
-              <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/737d43e009782506f37b5ba2b602bc66/passthrough.png?input=http%3A%2F%2Fstartupmanagement.org%2Fwp-content%2Fuploads%2F2014%2F12%2FScreen-Shot-2014-12-23-at-10.30.59-PM.png&width=403&height=299" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/737d43e009782506f37b5ba2b602bc66/passthrough.png?input=http%3A%2F%2Fstartupmanagement.org%2Fwp-content%2Fuploads%2F2014%2F12%2FScreen-Shot-2014-12-23-at-10.30.59-PM.png&width=403&height=299 403w" sizes="sizes='(min-width: 1400px) 1400px, 100vw'" id="u56" />
-            </a><style type="text/gss" scoped="scoped" id="u59">/* define  blank spot */
-"space"[x] == img[x] + 0 * image-scale !require;
-"space"[y] == img[y] + 0 * image-scale !require;
-"space"[width] ==  308 * image-scale !require;
-"space"[height] == 290 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u61">/* define  area of importance */
-"scene"[x] == img[x] + 313 * image-scale !require;
-"scene"[y] == img[y] + 27 * image-scale !require;
-"scene"[width] ==  89 * image-scale !require;
-"scene"[height] == 126 * image-scale !require;
-
-/* Keep saliency towards original position */
-"scene"[center-x] == "viewport"[center-x];
-"scene"[center-y] == "viewport"[center-y];
-
-@v |~("scene")~| in("viewport");
-@h |~("scene")~| in("viewport");</style></div>
-          <div class="html" id="u64">
-            <img alt="Screen Shot 2014-12-23 at 10.30.59 PM" src="http://startupmanagement.org/wp-content/uploads/2014/12/Screen-Shot-2014-12-23-at-10.30.59-PM.png" width="403" height="299">
-          </div>
-        </article>
-      </section>
-    </div><script src="//cdn.thegrid.io/design-systems/taylor/0.0.33/src/assets/gss-init.js" id="u68"></script><script src="//cdn.thegrid.io/design-systems/taylor/0.0.33/src/layouts/artistic/D4/assets/gss/modifiers/displacement.js" id="u69"></script></body>
+    <div id="u12"></div>
+  </body>
 
 </html>
