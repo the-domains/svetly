@@ -1,2 +1,22 @@
+name: null
+favicon: null
 layout_spectrum: 0.8
 typography_spectrum: 0.8
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: UA-63442818-1
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors: []
+  brandStrength: 0
+  lightness: 0.5
+  saturation: 0.5
+purpose: []
