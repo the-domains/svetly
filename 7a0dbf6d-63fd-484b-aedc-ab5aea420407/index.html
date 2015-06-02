@@ -5,12 +5,105 @@
     <TITLE>Svetly's Grid Site</TITLE>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta the-grid-solution" content="09079596-8bf2-4501-b212-3beb2defff4d" />
+    <meta the-grid-solution" content="8d62c49e-d2a8-4976-8993-b3cb11483fc3" />
     <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/css/font/Icons/Icons.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/css/scale/mini.css" media="(max-width: 19.9375em)" />
     <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/css/scale/small.css" media="(min-width: 20em) and (max-width: 45.0624em) " />
     <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/css/scale/medium.css" media="(min-width: 45.0625em) and (max-width: 90.0624em)" />
     <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/css/scale/large.css" media="(min-width: 90.0625em)" /><style type="text/css">
+  html {
+  width: 100%;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.6;
+}
+body:after {
+  content: "";
+  position: fixed;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  opacity: .2;
+  z-index: -1;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+body a,
+body .cta {
+  text-decoration: none;
+}
+body .media > a {
+  display: inline-block;
+}
+body h1 a,
+body h2 a,
+body h3 a {
+  color: inherit;
+}
+*,
+*:before,
+*:after {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-weight: normal;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.decoration > svg {
+  display: block;
+}
+.group .title,
+.group a {
+  line-height: 1em;
+}
+.group .attribution {
+  white-space: nowrap;
+}
+.group .attribution .source {
+  display: inline-block;
+}
+.group .attribution .publisher {
+  display: inline-block;
+}
+.group .attribution .publisher a {
+  color: inherit;
+}
+.group .attribution .author {
+  display: inline-block;
+  font-weight: bold;
+  color: inherit;
+}
+.group .attribution .name {
+  font-weight: bold;
+  color: inherit;
+}
+.group .attribution .avatar {
+  opacity: .6;
+  display: inline-block;
+  vertical-align: middle;
+}
+.group .attribution .avatar img,
+.group .attribution .avatar a {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+
+.global-colors.base-light-color-1.base .base-color { background-color: hsl(225, 26%, 85%); }.global-colors.base-light-color-1.title-color-1 .title-color { color: hsl(43, 13%, 20%); }.global-colors.base-light-color-1.title-color-2 .title-color { color: hsl(30, 2%, 40%); }.global-colors.base-light-color-1.title-color-3 .title-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-1.title-color-4 .title-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-1.title-color-5 .title-color { color: hsl(43, 13%, 22%); }.global-colors.base-light-color-1.title-color-6 .title-color { color: hsl(43, 13%, 15%); }.global-colors.base-light-color-1.title-color-7 .title-color { color: hsl(352, 26%, 29%); }.global-colors.base-light-color-1.title-color-8 .title-color { color: hsl(225, 26%, 55%); }.global-colors.base-light-color-1.title-color-9 .title-color { color: hsl(43, 26%, 39%); }.global-colors.base-light-color-1.bg .bg-color { background-color: hsl(222, 26%, 93%); }.global-colors.base-light-color-1.box .box-color { background-color: hsl(225, 26%, 85%); }.global-colors.base-light-color-1.text-color-1 .text-color { color: hsl(0, 100%, 1%); }.global-colors.base-light-color-1.text-color-2 .text-color { color: hsl(240, 4%, 43%); }.global-colors.base-light-color-1.meta .meta-color { color: hsl(231, 6%, 60%); }.global-colors.base-light-color-1.boxPop-color-1 .boxPop-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-light-color-1.boxPop-color-2 .boxPop-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-light-color-1.boxPop-color-3 .boxPop-color { background-color: hsl(225, 75%, 55%); }.global-colors.base-light-color-1.boxPop-color-4 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-light-color-1.textPop-color-1 .textPop-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-1.textPop-color-2 .textPop-color { color: hsl(43, 13%, 22%); }.global-colors.base-light-color-1.textPop-color-3 .textPop-color { color: hsl(43, 13%, 15%); }.global-colors.base-light-color-1.textPop-color-4 .textPop-color { color: hsl(352, 26%, 29%); }.global-colors.base-light-color-1.textPop-color-5 .textPop-color { color: hsl(225, 26%, 55%); }.global-colors.base-light-color-1.textPop-color-6 .textPop-color { color: hsl(43, 26%, 39%); }.global-colors.base-light-color-1.heading .heading-color { color: hsl(43, 13%, 20%); }.global-colors.base-light-color-1.prime .prime-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-light-color-1.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-light-color-1.meta_highlight .meta_highlight-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-2.base .base-color { background-color: hsl(43, 20%, 95%); }.global-colors.base-light-color-2.title-color-1 .title-color { color: hsl(43, 13%, 20%); }.global-colors.base-light-color-2.title-color-2 .title-color { color: hsl(44, 5%, 43%); }.global-colors.base-light-color-2.title-color-3 .title-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-2.title-color-4 .title-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-2.title-color-5 .title-color { color: hsl(43, 13%, 22%); }.global-colors.base-light-color-2.title-color-6 .title-color { color: hsl(43, 13%, 15%); }.global-colors.base-light-color-2.title-color-7 .title-color { color: hsl(353, 78%, 25%); }.global-colors.base-light-color-2.title-color-8 .title-color { color: hsl(225, 55%, 47%); }.global-colors.base-light-color-2.title-color-9 .title-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-2.bg .bg-color { background-color: hsl(30, 17%, 98%); }.global-colors.base-light-color-2.box .box-color { background-color: hsl(36, 20%, 95%); }.global-colors.base-light-color-2.text-color-1 .text-color { color: hsl(0, 100%, 1%); }.global-colors.base-light-color-2.text-color-2 .text-color { color: hsl(24, 2%, 48%); }.global-colors.base-light-color-2.meta .meta-color { color: hsl(24, 3%, 67%); }.global-colors.base-light-color-2.boxPop-color-1 .boxPop-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-light-color-2.boxPop-color-2 .boxPop-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-light-color-2.boxPop-color-3 .boxPop-color { background-color: hsl(225, 75%, 55%); }.global-colors.base-light-color-2.boxPop-color-4 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-light-color-2.textPop-color-1 .textPop-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-2.textPop-color-2 .textPop-color { color: hsl(43, 13%, 22%); }.global-colors.base-light-color-2.textPop-color-3 .textPop-color { color: hsl(43, 13%, 15%); }.global-colors.base-light-color-2.textPop-color-4 .textPop-color { color: hsl(353, 78%, 25%); }.global-colors.base-light-color-2.textPop-color-5 .textPop-color { color: hsl(225, 55%, 47%); }.global-colors.base-light-color-2.textPop-color-6 .textPop-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-2.heading .heading-color { color: hsl(43, 13%, 20%); }.global-colors.base-light-color-2.prime .prime-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-light-color-2.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-light-color-2.meta_highlight .meta_highlight-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-3.base .base-color { background-color: hsl(300, 9%, 95%); }.global-colors.base-light-color-3.title-color-1 .title-color { color: hsl(43, 13%, 20%); }.global-colors.base-light-color-3.title-color-2 .title-color { color: hsl(36, 5%, 43%); }.global-colors.base-light-color-3.title-color-3 .title-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-3.title-color-4 .title-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-3.title-color-5 .title-color { color: hsl(43, 13%, 22%); }.global-colors.base-light-color-3.title-color-6 .title-color { color: hsl(43, 13%, 15%); }.global-colors.base-light-color-3.title-color-7 .title-color { color: hsl(353, 78%, 25%); }.global-colors.base-light-color-3.title-color-8 .title-color { color: hsl(225, 55%, 47%); }.global-colors.base-light-color-3.title-color-9 .title-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-3.bg .bg-color { background-color: hsl(300, 8%, 97%); }.global-colors.base-light-color-3.box .box-color { background-color: hsl(300, 8%, 95%); }.global-colors.base-light-color-3.text-color-1 .text-color { color: hsl(0, 100%, 1%); }.global-colors.base-light-color-3.text-color-2 .text-color { color: hsl(340, 1%, 48%); }.global-colors.base-light-color-3.meta .meta-color { color: hsl(340, 2%, 67%); }.global-colors.base-light-color-3.boxPop-color-1 .boxPop-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-light-color-3.boxPop-color-2 .boxPop-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-light-color-3.boxPop-color-3 .boxPop-color { background-color: hsl(225, 75%, 55%); }.global-colors.base-light-color-3.boxPop-color-4 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-light-color-3.textPop-color-1 .textPop-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-3.textPop-color-2 .textPop-color { color: hsl(43, 13%, 22%); }.global-colors.base-light-color-3.textPop-color-3 .textPop-color { color: hsl(43, 13%, 15%); }.global-colors.base-light-color-3.textPop-color-4 .textPop-color { color: hsl(353, 78%, 25%); }.global-colors.base-light-color-3.textPop-color-5 .textPop-color { color: hsl(225, 55%, 47%); }.global-colors.base-light-color-3.textPop-color-6 .textPop-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-3.heading .heading-color { color: hsl(43, 13%, 20%); }.global-colors.base-light-color-3.prime .prime-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-light-color-3.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-light-color-3.meta_highlight .meta_highlight-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-4.base .base-color { background-color: hsl(0, 0%, 100%); }.global-colors.base-light-color-4.title-color-1 .title-color { color: hsl(43, 13%, 20%); }.global-colors.base-light-color-4.title-color-2 .title-color { color: hsl(42, 4%, 44%); }.global-colors.base-light-color-4.title-color-3 .title-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-4.title-color-4 .title-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-4.title-color-5 .title-color { color: hsl(43, 13%, 22%); }.global-colors.base-light-color-4.title-color-6 .title-color { color: hsl(43, 13%, 15%); }.global-colors.base-light-color-4.title-color-7 .title-color { color: hsl(353, 78%, 25%); }.global-colors.base-light-color-4.title-color-8 .title-color { color: hsl(225, 55%, 47%); }.global-colors.base-light-color-4.title-color-9 .title-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-4.bg .bg-color { background-color: hsl(0, 0%, 100%); }.global-colors.base-light-color-4.box .box-color { background-color: hsl(0, 0%, 100%); }.global-colors.base-light-color-4.text-color-1 .text-color { color: hsl(0, 100%, 1%); }.global-colors.base-light-color-4.text-color-2 .text-color { color: hsl(0, 1%, 51%); }.global-colors.base-light-color-4.meta .meta-color { color: hsl(0, 1%, 70%); }.global-colors.base-light-color-4.boxPop-color-1 .boxPop-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-light-color-4.boxPop-color-2 .boxPop-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-light-color-4.boxPop-color-3 .boxPop-color { background-color: hsl(225, 75%, 55%); }.global-colors.base-light-color-4.boxPop-color-4 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-light-color-4.textPop-color-1 .textPop-color { color: hsl(352, 87%, 25%); }.global-colors.base-light-color-4.textPop-color-2 .textPop-color { color: hsl(43, 13%, 22%); }.global-colors.base-light-color-4.textPop-color-3 .textPop-color { color: hsl(43, 13%, 15%); }.global-colors.base-light-color-4.textPop-color-4 .textPop-color { color: hsl(353, 78%, 25%); }.global-colors.base-light-color-4.textPop-color-5 .textPop-color { color: hsl(225, 55%, 47%); }.global-colors.base-light-color-4.textPop-color-6 .textPop-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-4.heading .heading-color { color: hsl(43, 13%, 20%); }.global-colors.base-light-color-4.prime .prime-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-light-color-4.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-light-color-4.meta_highlight .meta_highlight-color { color: hsl(352, 87%, 25%); }.global-colors.base-dark-color-1.base .base-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-dark-color-1.title-color-1 .title-color { color: hsl(225, 26%, 90%); }.global-colors.base-dark-color-1.title-color-2 .title-color { color: hsl(240, 3%, 69%); }.global-colors.base-dark-color-1.title-color-3 .title-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-1.title-color-4 .title-color { color: hsl(352, 43%, 61%); }.global-colors.base-dark-color-1.title-color-5 .title-color { color: hsl(225, 26%, 85%); }.global-colors.base-dark-color-1.title-color-6 .title-color { color: hsl(225, 68%, 79%); }.global-colors.base-dark-color-1.title-color-7 .title-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-1.bg .bg-color { background-color: hsl(40, 14%, 13%); }.global-colors.base-dark-color-1.box .box-color { background-color: hsl(43, 13%, 20%); }.global-colors.base-dark-color-1.text-color-1 .text-color { color: hsl(0, 100%, 95%); }.global-colors.base-dark-color-1.text-color-2 .text-color { color: hsl(8, 16%, 73%); }.global-colors.base-dark-color-1.meta .meta-color { color: hsl(25, 8%, 43%); }.global-colors.base-dark-color-1.boxPop-color-1 .boxPop-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-dark-color-1.boxPop-color-2 .boxPop-color { background-color: hsl(225, 26%, 85%); }.global-colors.base-dark-color-1.boxPop-color-3 .boxPop-color { background-color: hsl(225, 75%, 55%); }.global-colors.base-dark-color-1.boxPop-color-4 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-dark-color-1.textPop-color-1 .textPop-color { color: hsl(352, 43%, 61%); }.global-colors.base-dark-color-1.textPop-color-2 .textPop-color { color: hsl(225, 26%, 85%); }.global-colors.base-dark-color-1.textPop-color-3 .textPop-color { color: hsl(225, 68%, 79%); }.global-colors.base-dark-color-1.textPop-color-4 .textPop-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-1.heading .heading-color { color: hsl(225, 26%, 90%); }.global-colors.base-dark-color-1.prime .prime-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-dark-color-1.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-1.meta_highlight .meta_highlight-color { color: hsl(352, 43%, 61%); }.global-colors.base-dark-color-2.base .base-color { background-color: hsl(300, 1%, 45%); }.global-colors.base-dark-color-2.title-color-1 .title-color { color: hsl(225, 26%, 90%); }.global-colors.base-dark-color-2.title-color-2 .title-color { color: hsl(233, 6%, 69%); }.global-colors.base-dark-color-2.title-color-3 .title-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-2.title-color-4 .title-color { color: hsl(352, 43%, 61%); }.global-colors.base-dark-color-2.title-color-5 .title-color { color: hsl(225, 26%, 85%); }.global-colors.base-dark-color-2.title-color-6 .title-color { color: hsl(225, 68%, 79%); }.global-colors.base-dark-color-2.title-color-7 .title-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-2.bg .bg-color { background-color: hsl(0, 0%, 12%); }.global-colors.base-dark-color-2.box .box-color { background-color: hsl(300, 1%, 20%); }.global-colors.base-dark-color-2.text-color-1 .text-color { color: hsl(0, 100%, 95%); }.global-colors.base-dark-color-2.text-color-2 .text-color { color: hsl(357, 13%, 72%); }.global-colors.base-dark-color-2.meta .meta-color { color: hsl(300, 1%, 45%); }.global-colors.base-dark-color-2.boxPop-color-1 .boxPop-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-dark-color-2.boxPop-color-2 .boxPop-color { background-color: hsl(225, 26%, 85%); }.global-colors.base-dark-color-2.boxPop-color-3 .boxPop-color { background-color: hsl(225, 75%, 55%); }.global-colors.base-dark-color-2.boxPop-color-4 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-dark-color-2.textPop-color-1 .textPop-color { color: hsl(352, 43%, 61%); }.global-colors.base-dark-color-2.textPop-color-2 .textPop-color { color: hsl(225, 26%, 85%); }.global-colors.base-dark-color-2.textPop-color-3 .textPop-color { color: hsl(225, 68%, 79%); }.global-colors.base-dark-color-2.textPop-color-4 .textPop-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-2.heading .heading-color { color: hsl(225, 26%, 90%); }.global-colors.base-dark-color-2.prime .prime-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-dark-color-2.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-2.meta_highlight .meta_highlight-color { color: hsl(352, 43%, 61%); }.global-colors.base-dark-color-3.base .base-color { background-color: hsl(0, 100%, 1%); }.global-colors.base-dark-color-3.title-color-1 .title-color { color: hsl(225, 26%, 90%); }.global-colors.base-dark-color-3.title-color-2 .title-color { color: hsl(240, 4%, 63%); }.global-colors.base-dark-color-3.title-color-3 .title-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-3.title-color-4 .title-color { color: hsl(352, 36%, 57%); }.global-colors.base-dark-color-3.title-color-5 .title-color { color: hsl(225, 26%, 85%); }.global-colors.base-dark-color-3.title-color-6 .title-color { color: hsl(43, 13%, 35%); }.global-colors.base-dark-color-3.title-color-7 .title-color { color: hsl(352, 54%, 61%); }.global-colors.base-dark-color-3.title-color-8 .title-color { color: hsl(225, 100%, 80%); }.global-colors.base-dark-color-3.title-color-9 .title-color { color: hsl(43, 100%, 83%); }.global-colors.base-dark-color-3.bg .bg-color { background-color: hsl(0, 100%, 1%); }.global-colors.base-dark-color-3.box .box-color { background-color: hsl(0, 100%, 1%); }.global-colors.base-dark-color-3.text-color-1 .text-color { color: hsl(0, 100%, 95%); }.global-colors.base-dark-color-3.text-color-2 .text-color { color: hsl(0, 12%, 67%); }.global-colors.base-dark-color-3.meta .meta-color { color: hsl(0, 7%, 29%); }.global-colors.base-dark-color-3.boxPop-color-1 .boxPop-color { background-color: hsl(225, 26%, 85%); }.global-colors.base-dark-color-3.boxPop-color-2 .boxPop-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-dark-color-3.boxPop-color-3 .boxPop-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-dark-color-3.boxPop-color-4 .boxPop-color { background-color: hsl(225, 75%, 55%); }.global-colors.base-dark-color-3.boxPop-color-5 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-dark-color-3.textPop-color-1 .textPop-color { color: hsl(352, 36%, 57%); }.global-colors.base-dark-color-3.textPop-color-2 .textPop-color { color: hsl(225, 26%, 85%); }.global-colors.base-dark-color-3.textPop-color-3 .textPop-color { color: hsl(43, 13%, 35%); }.global-colors.base-dark-color-3.textPop-color-4 .textPop-color { color: hsl(352, 54%, 61%); }.global-colors.base-dark-color-3.textPop-color-5 .textPop-color { color: hsl(225, 100%, 80%); }.global-colors.base-dark-color-3.textPop-color-6 .textPop-color { color: hsl(43, 100%, 83%); }.global-colors.base-dark-color-3.heading .heading-color { color: hsl(225, 26%, 90%); }.global-colors.base-dark-color-3.prime .prime-color { background-color: hsl(225, 26%, 85%); }.global-colors.base-dark-color-3.primeText .primeText-color { color: hsl(0, 0%, 0%); }.global-colors.base-dark-color-3.meta_highlight .meta_highlight-color { color: hsl(352, 36%, 57%); }.global-colors.base-vibrant-color-1.base .base-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-vibrant-color-1.title-color-1 .title-color { color: hsl(225, 26%, 85%); }.global-colors.base-vibrant-color-1.title-color-2 .title-color { color: hsl(0, 0%, 0%); }.global-colors.base-vibrant-color-1.title-color-3 .title-color { color: hsl(353, 36%, 82%); }.global-colors.base-vibrant-color-1.bg .bg-color { background-color: hsl(352, 97%, 29%); }.global-colors.base-vibrant-color-1.box .box-color { background-color: hsl(352, 88%, 29%); }.global-colors.base-vibrant-color-1.text-color-1 .text-color { color: hsl(225, 26%, 95%); }.global-colors.base-vibrant-color-1.meta .meta-color { color: hsl(352, 36%, 57%); }.global-colors.base-vibrant-color-1.boxPop-color-1 .boxPop-color { background-color: hsl(225, 26%, 85%); }.global-colors.base-vibrant-color-1.boxPop-color-2 .boxPop-color { background-color: hsl(0, 100%, 1%); }.global-colors.base-vibrant-color-1.boxPop-color-3 .boxPop-color { background-color: hsl(300, 1%, 45%); }.global-colors.base-vibrant-color-1.boxPop-color-4 .boxPop-color { background-color: hsl(43, 13%, 22%); }.global-colors.base-vibrant-color-1.textPop-color-1 .textPop-color { color: hsl(353, 36%, 82%); }.global-colors.base-vibrant-color-1.heading .heading-color { color: hsl(225, 26%, 85%); }.global-colors.base-vibrant-color-1.prime .prime-color { background-color: hsl(225, 26%, 85%); }.global-colors.base-vibrant-color-1.primeText .primeText-color { color: hsl(0, 0%, 0%); }.global-colors.base-vibrant-color-1.meta_highlight .meta_highlight-color { color: hsl(353, 36%, 82%); }
+</style><style type="text/css">
   
 /*
 html:not(.gss-ready) {
@@ -34,10 +127,8 @@ html:not(.gss-ready) {
 #u5{z-index: 2; height: 4.5rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
 
 #u12{overflow: hidden; height: 4.5rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
-#u7{color: rgb(0, 0, 238);font-weight: bold;}
-#u6{height: 7.2rem; width: 7.2rem; position: absolute; top: -2.7rem; left: 0rem;;}
-
-#u19{color: rgb(0, 0, 0);font-weight: 300;}
+#u7{font-weight: bold;}
+#u6{height: 7.2rem; width: 7.2rem; position: absolute; top: -2.88rem; left: 0rem;;font-weight: normal;}
 
 }
 @media (min-width: 721px) {
@@ -50,10 +141,8 @@ html:not(.gss-ready) {
 #u5{z-index: 2; height: 9rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
 
 #u12{overflow: hidden; height: 9rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
-#u7{color: rgb(0, 0, 238);font-weight: bold;}
-#u6{height: 9.6rem; width: 9.6rem; position: absolute; top: -0.6rem; left: 4.8rem;;}
-
-#u19{color: rgb(0, 0, 0);font-weight: 300;}
+#u7{font-weight: bold;}
+#u6{height: 9.6rem; width: 9.6rem; position: absolute; top: -0.78rem; left: 4.8rem;;font-weight: normal;}
 
 }</style><script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script><script>WebFont.load({"google":{"families":["Merriweather:400,700","Open Sans:300,300italic,700,700italic"]}});</script><style type="text/css">html {font-family: 'Open Sans';font-weight: 300;}
  .layout-system .hero {font-family: 'Merriweather';font-weight: 700;}
@@ -78,7 +167,7 @@ v-gutter-min:= .5md;
 v-gutter-max:= .5md;
 @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/columns/one.gss;
 </style>
-        <section dataId="a8d7f3cb-1824-452d-9ce8-a5f7b1347b34" kind="stack" class="title-text-cover mixed w-decoration w-media global-colors wide fullscreen flow_vertical flow_reversed align-left decorated w-bg-cover softcolor1 stack" id="u13"><style type="text/gss" scoped="scoped" id="u4">@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-align/stretch.gss;
+        <section dataId="a8d7f3cb-1824-452d-9ce8-a5f7b1347b34" kind="stack" class="title-text-cover mixed w-decoration w-media global-colors base-light-color-1 title-color-1 text-color-1 boxPop-color-1 textPop-color-1 wide fullscreen flow_vertical flow_reversed align-left decorated w-bg-cover softcolor1 stack" id="u13"><style type="text/gss" scoped="scoped" id="u4">@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-align/stretch.gss;
 @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-align/stretch.gss;
 @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-distribute/center.gss;
 @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-distribute/center.gss;
