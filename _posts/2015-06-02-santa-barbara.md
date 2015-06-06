@@ -5,17 +5,17 @@ starred: false
 keywords: []
 description: ""
 author: []
-title: Santa Barbara
+title: "Santa Barbara #California"
+datePublished: "2015-06-02T00:40:19.573Z"
+dateModified: "2015-06-06T00:26:01.725Z"
+sourcePath: _posts/2015-06-02-santa-barbara.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-datePublished: "2015-06-02T00:40:19.573Z"
-dateModified: "2015-06-02T00:40:19.573Z"
-sourcePath: _posts/2015-06-02-santa-barbara.md
-published: true
 _type: Article
 _context: "http://schema.org"
 
