@@ -1,13 +1,13 @@
-name: "Svetly's Grid Site"
+name: null
 favicon: null
-layout_spectrum: 0.25274
-typography_spectrum: 0.25617
+layout_spectrum: 0.8
+typography_spectrum: 0.5
 cta:
   domain: null
   bucket: null
   version: null
 analytics:
-  google: UA-63442818-1
+  google: null
   facebook: null
   twitter: null
 opengraph:
@@ -15,12 +15,7 @@ opengraph:
   type: null
   appId: null
 color:
-  brandColors:
-    - '#4d626d'
-    - '#26343b'
-    - '#778e9b'
-    - '#abb9c2'
-    - '#dbe2e6'
+  brandColors: []
   brandStrength: 0
   lightness: 0.5
   saturation: 0.5
