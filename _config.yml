@@ -1,4 +1,4 @@
-name: null
+name: svetly
 favicon: null
 layout_spectrum: 0.10622
 typography_spectrum: 0.32813
@@ -19,4 +19,5 @@ color:
   brandStrength: 0
   lightness: 0.5
   saturation: 0.5
+  rhythmicContrast: 0.5
 purpose: []
