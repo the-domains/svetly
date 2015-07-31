@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[svetly]]></title>
+        <description><![CDATA[svetly]]></description>
+        <link>http://github.com/dylang/node-rss</link>
+        <generator>The Grid</generator>
+        <lastBuildDate>Fri, 31 Jul 2015 18:57:11 GMT</lastBuildDate>
+        <atom:link href="undefinedrss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Ex-Googler Launches The Grid Preordering Campaign for AI Web Design Platform: Promises Sleeker Alternative to WordPress, Drag & Drop, and Wix]]></title>
+            <description><![CDATA[<article><h1>Ex-Googler Launches The Grid Preordering Campaign for AI Web Design Platform: Promises Sleeker Alternative to WordPress, Drag & Drop, and Wix</h1><p>After over three and a half years of building, the team behind the successful Kickstarter campaign NoFlo, launched The Grid today, AI software that enables a quicker way to create smarter, sleeker websites. The Grid uses artificial intelligence that gives any user, regardless of knowledge of web development, the power to build elegant websites.</p><img src="http://cdn.crowdfundinsider.com/wp-content/uploads/2014/10/the-grid-team-2-600x400.jpg"></article>]]></description>
+            <link>http://www.crowdfundinsider.com/2014/10/52009-ex-googler-launches-pretail-campaign-a1-grid-web-design-platform-sleeker-alternative-wordpress-dragondrop-wix-ensures-output-elegance/</link>
+            <guid isPermaLink="false">b40bc1b5-541d-49e7-b407-1fd801537501</guid>
+            <pubDate>Fri, 31 Jul 2015 18:57:03 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
