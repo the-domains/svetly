@@ -5,8 +5,15 @@
         <description><![CDATA[svetly]]></description>
         <link>http://svet.ly/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Mon, 31 Aug 2015 19:52:22 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 Aug 2015 19:52:40 GMT</lastBuildDate>
         <atom:link href="http://svet.ly/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[$v£t Mon€ ¥]]></title>
+            <description><![CDATA[<article><h1>$v£t Mon€ ¥</h1><p>Be bold in the dreams you dream for your life.</p><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/0e991c7b-8c14-4344-b967-c682c8cde898.jpg"></article>]]></description>
+            <link>https://the-grid-user-content.s3-us-west-2.amazonaws.com/0e991c7b-8c14-4344-b967-c682c8cde898.jpg</link>
+            <guid isPermaLink="false">79429bfa-d3ad-45a5-a75a-687b8b6041cd</guid>
+            <pubDate>Mon, 31 Aug 2015 19:52:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[No title]]></title>
             <description><![CDATA[<img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/00ebef10-3f4b-462d-9cb0-1fa3fc831607.jpg">]]></description>
