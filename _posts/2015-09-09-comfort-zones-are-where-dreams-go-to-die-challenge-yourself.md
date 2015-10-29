@@ -21,10 +21,13 @@ app_links:
     package: com.instagram.android
 isBasedOnUrl: 'https://instagram.com/p/1Dsa7ZiMEo/'
 title: 'Comfort zones are where dreams go to die. Challenge yourself to move outside the borders of comfort. #circlemakers photo by @knifeandfox'
-datePublished: '2015-09-09T16:13:36.643Z'
-dateModified: '2015-09-09T16:13:23.113Z'
+datePublished: '2015-10-29T20:39:47.769Z'
+dateModified: '2015-09-28T18:43:36.379Z'
 sourcePath: _posts/2015-09-09-comfort-zones-are-where-dreams-go-to-die-challenge-yourself.md
 published: true
+inFeed: true
+hasPage: false
+inNav: false
 _type: Photograph
 _context: 'http://schema.org'
 
