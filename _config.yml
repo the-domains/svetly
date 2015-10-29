@@ -1,19 +1,4 @@
-name: svetly
-favicon: null
-layout_spectrum: 0.38095
-typography_spectrum: 0.32813
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+analytics: {}
 color:
   brandColors:
     - '#fbfbfb'
@@ -21,8 +6,13 @@ color:
     - '#c3b8a3'
     - '#496f57'
     - '#05412a'
-  brandStrength: 0.5
+  brandStrength: 0
   lightness: 1
-  saturation: 0.6875
   rhythmicContrast: 0.5
+  saturation: 0.519736
+cta: {}
+layout_spectrum: 0.38095
+name: svetly
+opengraph: {}
 purpose: []
+typography_spectrum: 0.32813
