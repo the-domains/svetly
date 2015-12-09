@@ -1,6 +1,6 @@
 name: svetly
 favicon: null
-layout_spectrum: 0.38235
+layout_spectrum: 0.67548
 typography_spectrum: 0.32813
 collections:
   - index:
@@ -33,7 +33,7 @@ color:
     - '#c3b8a3'
     - '#496f57'
     - '#05412a'
-  brandStrength: 0
+  brandStrength: 0.25
   lightness: 0.6875
   saturation: 1
   rhythmicContrast: 1
