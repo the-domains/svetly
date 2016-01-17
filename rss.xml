@@ -4,7 +4,7 @@
         <description><![CDATA[svetly]]></description>
         <link>http://svet.ly/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Fri, 08 Jan 2016 22:44:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Jan 2016 02:41:35 GMT</lastBuildDate>
         <atom:link href="http://svet.ly/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[150 yr old civil war cannon. #historic]]></title>
@@ -12,6 +12,13 @@
             <link>https://instagram.com/p/p1l7dUQH9S/</link>
             <guid isPermaLink="false">c0060096-0d94-4103-a30f-879c77bfec07</guid>
             <pubDate>Wed, 09 Dec 2015 06:48:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[About]]></title>
+            <description><![CDATA[<article><h1>About</h1><p>Svetly is a cool guy</p></article>]]></description>
+            <link>http://svet.ly/about/index.html</link>
+            <guid isPermaLink="false">1d943e6e-f8e5-43f6-9986-fcfd74d02da3</guid>
+            <pubDate>Sun, 17 Jan 2016 02:41:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[This is my title]]></title>
