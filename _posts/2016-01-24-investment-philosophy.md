@@ -6,7 +6,7 @@ inLanguage: null
 starred: false
 keywords: []
 description: ''
-datePublished: '2016-01-26T07:10:16.777Z'
+datePublished: '2016-01-26T07:10:16.829Z'
 dateModified: '2016-01-26T07:10:14.532Z'
 title: Investment Philosophy
 author: []
