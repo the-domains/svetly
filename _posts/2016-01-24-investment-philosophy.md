@@ -6,8 +6,8 @@ inLanguage: null
 starred: false
 keywords: []
 description: ''
-datePublished: '2016-01-26T07:06:46.401Z'
-dateModified: '2016-01-26T07:06:43.935Z'
+datePublished: '2016-01-26T07:10:16.777Z'
+dateModified: '2016-01-26T07:10:14.532Z'
 title: Investment Philosophy
 author: []
 sourcePath: _posts/2016-01-24-investment-philosophy.md
@@ -25,4 +25,4 @@ _type: Article
 # Investment Philosophy
 
 Technology driven market advantage & prudent resource management
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/aa8c8618-0b31-4c57-b8aa-c22690f24074.jpg)
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/aa92d984-0d15-4da7-9b4d-af4791dd81d9.jpg)
