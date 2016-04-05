@@ -1,8 +1,7 @@
+name: svetly
+favicon: null
 layout_spectrum: 0.42501
-opengraph:
-  image: null
-  type: null
-  appId: null
+typography_spectrum: 0.32813
 collections:
   - index:
       path: /
@@ -15,26 +14,27 @@ collections:
       number: 10
     permalink:
       path: '/:title/'
-purpose: []
-color:
-  saturation: 1
-  brandStrength: 1
-  lightness: 1
-  brandColors:
-    - '#0E0E0C'
-    - '#FFFFFC'
-    - '#7F7F78'
-    - '#FDFC41'
-    - '#3A89E9'
-  rhythmicContrast: 1
-typography_spectrum: 0.32813
 cta:
+  domain: null
   bucket: null
   version: null
-  domain: null
 analytics:
-  twitter: null
   google: null
   facebook: null
-favicon: null
-name: svetly
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#e5e8cb'
+    - '#2c4947'
+    - '#709f8f'
+    - '#b8aa8f'
+    - '#b68b58'
+  brandStrength: 1
+  lightness: 1
+  saturation: 1
+  rhythmicContrast: 1
+purpose: []
