@@ -1,5 +1,4 @@
 typography_spectrum: 0.32813
-style: the-composer
 color:
   brandColors:
     - '#e5e8cb'
@@ -25,6 +24,7 @@ cta:
   domain: null
   bucket: null
   version: null
+style: the-composer
 favicon: null
 collections:
   - index:
@@ -38,4 +38,5 @@ collections:
       number: 10
     permalink:
       path: '/:title/'
+description: 'Your daily life is your temple and your religion. '
 purpose: []
